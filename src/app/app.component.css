@@ -3,3 +3,8 @@ md-toolbar h1{
     font-weight:400;
     margin:auto
 }
+
+md-toolbar.md-default-theme:not(.md-menu-toolbar), md-toolbar:not(.md-menu-toolbar) {
+    background-color: #00bcd4;
+    color: rgb(255,255,255);
+}
