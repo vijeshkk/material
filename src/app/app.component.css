@@ -1,4 +1,4 @@
-md-toolbar h1{
+/*md-toolbar h1{
     font-size:1.250em;
     font-weight:400;
     margin:auto
@@ -7,4 +7,16 @@ md-toolbar h1{
 md-toolbar.md-default-theme:not(.md-menu-toolbar), md-toolbar:not(.md-menu-toolbar) {
     background-color: #00bcd4;
     color: rgb(255,255,255);
+}*/
+
+.md-listview {
+    background-color: #000000;
+    color: rgb(255,255,255);
+}
+
+.spacer {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    
 }

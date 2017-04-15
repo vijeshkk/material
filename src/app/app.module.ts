@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { HostCard } from './card.component';
 
 import { MdCardModule } from '@angular2-material/card';
 import { MdButtonModule } from '@angular2-material/button';
@@ -13,12 +14,14 @@ import { MdSlideToggleModule } from '@angular2-material/slide-toggle';
 import { MdInputModule } from '@angular2-material/input';
 import { MdListModule } from '@angular2-material/list';
 import { MdTooltipModule } from '@angular2-material/tooltip';
+import { MdTabsModule } from '@angular2-material/tabs';
 
 import { MdIconRegistry } from '@angular2-material/icon';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HostCard
   ],
   imports: [
     BrowserModule,
@@ -31,7 +34,8 @@ import { MdIconRegistry } from '@angular2-material/icon';
     MdSlideToggleModule,
     MdInputModule,
     MdListModule,
-    MdTooltipModule
+    MdTooltipModule,
+    MdTabsModule
   ],
   providers: [ MdIconRegistry ],
   bootstrap: [AppComponent]
